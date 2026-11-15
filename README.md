@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=180&section=header&text=Vasu%20Bansal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Backend%20%26%20Infra%20Engineer%20%E2%86%92%20AI%20Platform&descSize=18&descAlignY=58" width="100%" alt="Vasu Bansal" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=180&section=header&text=Vasu%20Bansal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Backend%20%2B%20Infra%20Engineer%20%E2%86%92%20AI%20Platform&descSize=18&descAlignY=58" width="100%" alt="Vasu Bansal" />
 
 <p align="center">
   <a href="https://vasubansal1033.github.io/recruiter/">
@@ -19,97 +19,90 @@
 ### 👋 About me
 
 ```go
-type Engineer struct {
-    Name       string
-    Role       string
-    Previously []string
-    Education  string
-    DayToDay   []string
-    Learning   []string
-    OpenTo     []string
-}
-
-var vasu = Engineer{
-    Name:       "Vasu Bansal",
-    Role:       "MTS-3 @ Nutanix (backend + infra)",
-    Previously: []string{"Gojek (multi-tenant KYC platform)", "Deloitte"},
-    Education:  "B.Tech Mechanical + Aerospace, IIT Kanpur (2016-21)",
-    DayToDay:   []string{"Go", "Spring Boot", "Kafka", "Postgres", "Redis", "Kubernetes", "Helm", "Envoy", "OIDC"},
-    Learning:   []string{"LLM internals", "tokenizers", "agentic workflows", "AI platform infra"},
-    OpenTo:     []string{"AI platform", "backend", "infra", "data engineering"},
+vasu := Engineer{
+    Now:       "MTS-3 @ Nutanix · backend + infra",
+    Before:    []string{"Gojek", "Deloitte"},
+    Education: "IIT Kanpur · Mechanical + Aerospace",
+    Stack:     []string{"Go", "Spring Boot", "Kafka", "Postgres", "Redis", "K8s"},
+    Learning:  []string{"LLM internals", "tokenizers", "agents"},
+    OpenTo:    []string{"AI platform", "backend", "infra", "data eng"},
 }
 ```
 
-- 🏗️ At **Nutanix**, leading the **IAM control-plane migration**: Kubernetes, Helm charts, Envoy, OIDC.
-- ⚡ At **Gojek**, built a **multi-tenant KYC platform** that orchestrated ML models on an actor-concurrency framework, with Kafka, Postgres, Redis and Kubernetes at scale.
-- 🧠 Moving toward **AI platform roles**: building GPT from scratch, training tokenizers, and wiring up LLM agents in public.
-- 🔬 I like reading system internals for fun (Go's memory management, Redis, databases, distributed systems) and writing them up on my blog.
-- 🏠 I run a homelab (Synology NAS, Raspberry Pi 5, 2× HP T630 on Proxmox, all on Tailscale) for self-hosting Immich, AdGuard and Home Assistant.
+- 🏗️ **Nutanix:** leading the IAM control-plane migration across Kubernetes, Helm, Envoy and OIDC.
+- ⚡ **Gojek:** built a multi-tenant KYC platform orchestrating ML models on an actor-concurrency framework, running on Kafka, Postgres, Redis and Kubernetes.
+- 🧠 **Next:** moving into AI platform work by building GPT from scratch, training tokenizers and shipping LLM agents in public.
+- 🏠 **Off the clock:** reading system internals (Go's memory model, Redis, databases) and running a self-hosted homelab on Proxmox + Tailscale.
 
 ---
 
 ### 🛠️ Tech stack
 
-**Backend & data**
-<br/>
-<img src="https://skillicons.dev/icons?i=go,java,spring,rails,python,kafka,redis,postgres,elasticsearch&perline=9" alt="Backend stack" />
-
-**Infra & platform**
-<br/>
-<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,bash,githubactions&perline=9" alt="Infra stack" />
-&nbsp;
-<img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" />
-<img src="https://img.shields.io/badge/Envoy-AC6199?style=flat-square&logo=envoyproxy&logoColor=white" alt="Envoy" />
-<img src="https://img.shields.io/badge/OIDC-F78C40?style=flat-square&logo=openid&logoColor=white" alt="OIDC" />
-
-**AI / ML (learning in public)**
-<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,py&perline=9" alt="AI stack" />
-&nbsp;
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
+| Area | Tools |
+| :-- | :-- |
+| **Backend & data** | <img src="https://skillicons.dev/icons?i=go,java,spring,rails,python" height="40" alt="Go, Java, Spring, Rails, Python" /> <img src="https://skillicons.dev/icons?i=kafka,redis,postgres,elasticsearch" height="40" alt="Kafka, Redis, Postgres, Elasticsearch" /> |
+| **Infra & platform** | <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,bash,githubactions" height="40" alt="Kubernetes, Docker, Linux, Bash, GitHub Actions" /><br/><img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" /> <img src="https://img.shields.io/badge/Envoy-AC6199?style=flat-square&logo=envoyproxy&logoColor=white" alt="Envoy" /> <img src="https://img.shields.io/badge/OIDC-F78C40?style=flat-square&logo=openid&logoColor=white" alt="OIDC" /> |
+| **AI / ML** *(learning)* | <img src="https://skillicons.dev/icons?i=pytorch" height="40" alt="PyTorch" /><br/><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" /> |
 
 ---
 
 ### 🤖 AI projects
 
 | Project | What it is |
-| --- | --- |
-| [**recruiter-agent**](https://github.com/vasubansal1033/recruiter-agent) | Agent that answers recruiter questions about me. Paste a JD, get a fit answer grounded in my profile docs. Powers the "Ask" widget on my [recruiter page](https://vasubansal1033.github.io/recruiter/). |
-| [**s2-tokenizer**](https://github.com/vasubansal1033/s2-tokenizer) | Multilingual tokenizer for English, Hindi, Punjabi and Telugu: per-language BPE models sharing one 10k-token vocabulary. |
-| [**building-gpt-from-scratch**](https://github.com/vasubansal1033/building-gpt-from-scratch) | A small GPT-style language model in PyTorch, following Karpathy's "Let's build GPT". |
-| [**building-makemore**](https://github.com/vasubansal1033/building-makemore) | Character-level language models from Karpathy's makemore series. |
-| [**vocab-coach**](https://github.com/vasubansal1033/vocab-coach) | Agentic AI workflows to help improve vocabulary. |
+| :-- | :-- |
+| [**Recruiter agent**](https://github.com/vasubansal1033/recruiter-agent) | Paste a JD, ask a question, get a fit answer grounded in my profile docs. Powers the "Ask" widget on my [recruiter page](https://vasubansal1033.github.io/recruiter/). `Python` `Gradio` |
+| [**S2 tokenizer**](https://github.com/vasubansal1033/s2-tokenizer) | English, Hindi, Punjabi and Telugu BPE models sharing one 10k-token vocabulary. [Write-up ↗](https://vasubansal1033.github.io/posts/multilingual-tokenizer/) `Python` |
+| [**GPT from scratch**](https://github.com/vasubansal1033/building-gpt-from-scratch) | A small GPT-style language model, following Karpathy's "Let's build GPT". `PyTorch` |
+| [**makemore**](https://github.com/vasubansal1033/building-makemore) | Character-level language models from Karpathy's makemore series. `PyTorch` |
+| [**vocab-coach**](https://github.com/vasubansal1033/vocab-coach) | Agentic AI workflows to help improve vocabulary. `Python` |
 
 ### ⚙️ Systems built from scratch
 
 | Project | What it is |
-| --- | --- |
-| [**coding-challenge-redis-server**](https://github.com/vasubansal1033/coding-challenge-redis-server) | A Redis server in Go implementing the major Redis features. |
-| [**distrib-txn-db**](https://github.com/vasubansal1033/distrib-txn-db) | Distributed transactional KV store: hybrid logical clocks, MVCC, intents, serializable transactions. |
-| [**cascade**](https://github.com/vasubansal1033/cascade) · [**mini-lsm-starter**](https://github.com/vasubansal1033/mini-lsm-starter) | LSM-tree storage engines in Go and Rust: SSTables, compaction, read amplification. |
-| [**query-engine-from-scratch**](https://github.com/vasubansal1033/query-engine-from-scratch) | SQL query engine, from handwritten plans to pipelined, vectorized execution. |
-| [**echo-operator**](https://github.com/vasubansal1033/echo-operator) | Kubernetes operator with controller-runtime: CRDs and reconciliation loops. |
-| [**6.5840**](https://github.com/vasubansal1033/6.5840) · [**cs144**](https://github.com/vasubansal1033/cs144) | MIT Distributed Systems (Raft, MapReduce) and Stanford Computer Networks labs. |
-| [**codecrafters-docker-go**](https://github.com/vasubansal1033/codecrafters-docker-go) · [**bit-torrent**](https://github.com/vasubansal1033/codecrafters-bit-torrent) · [**dns-server**](https://github.com/vasubansal1033/codecrafters-dns-server) | Docker, BitTorrent and DNS server implementations in Go. |
+| :-- | :-- |
+| [**Redis server**](https://github.com/vasubansal1033/coding-challenge-redis-server) | A Redis server implementing the major Redis features. `Go` |
+| [**Distributed txn DB**](https://github.com/vasubansal1033/distrib-txn-db) | Transactional KV store: hybrid logical clocks, MVCC, intents, serializable transactions. `Java` |
+| [**LSM trees**](https://github.com/vasubansal1033/cascade) | Storage engines with SSTables and compaction, built twice: [Go](https://github.com/vasubansal1033/cascade) and [Rust](https://github.com/vasubansal1033/mini-lsm-starter). |
+| [**SQL query engine**](https://github.com/vasubansal1033/query-engine-from-scratch) | From handwritten plans to pipelined, vectorized execution. `Python` |
+| [**K8s operator**](https://github.com/vasubansal1033/echo-operator) | Custom resources and reconciliation loops with controller-runtime. `Go` |
+| [**MIT 6.5840**](https://github.com/vasubansal1033/6.5840) · [**CS144**](https://github.com/vasubansal1033/cs144) | Raft, MapReduce and TCP/IP course labs. `Go` `C++` |
+| [**Docker**](https://github.com/vasubansal1033/codecrafters-docker-go) · [**BitTorrent**](https://github.com/vasubansal1033/codecrafters-bit-torrent) · [**DNS**](https://github.com/vasubansal1033/codecrafters-dns-server) | Rebuilding familiar tools to see how they work. `Go` |
 
 ---
 
 ### ✍️ Latest from the blog
 
-- 🔤 [Multilingual tokenizer fertility](https://vasubansal1033.github.io/posts/multilingual-tokenizer/): a merged English–Hindi–Punjabi–Telugu tokenizer, fertility per language and a live encode playground.
-- 🧮 [Bayes' theorem and the irrational mind](https://vasubansal1033.github.io/posts/bayes-theorem-and-the-irrational-mind/): updating beliefs correctly, and how intuition gets it wrong.
-- 🧠 [Seeing why neural networks work](https://vasubansal1033.github.io/posts/seeing-why-neural-networks-work/): four interactive visual proofs for activations, depth, embeddings and generalization.
+- 🔤 [**Multilingual tokenizer fertility**](https://vasubansal1033.github.io/posts/multilingual-tokenizer/): fertility per language and a live encode playground.
+- 🧮 [**Bayes' theorem and the irrational mind**](https://vasubansal1033.github.io/posts/bayes-theorem-and-the-irrational-mind/): updating beliefs correctly, and how intuition gets it wrong.
+- 🧠 [**Seeing why neural networks work**](https://vasubansal1033.github.io/posts/seeing-why-neural-networks-work/): interactive visual proofs for activations, depth, embeddings and generalization.
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/3-stats.svg" />
+    <img src="profile-summary-card-output/github/3-stats.svg" width="32%" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <img src="profile-summary-card-output/github/1-repos-per-language.svg" width="32%" alt="Top languages by repo" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+    <img src="profile-summary-card-output/github/2-most-commit-language.svg" width="32%" alt="Top languages by commit" />
+  </picture>
+</p>
 
 ---
 
 ### 🤝 Let's talk
 
-Hiring for **AI platform, backend, infra or data engineering** roles? The [recruiter page](https://vasubansal1033.github.io/recruiter/) has a 30-second overview, my resume, and an AI agent you can ask about my fit for your JD.
+Hiring for **AI platform, backend, infra or data engineering** roles? My [recruiter page](https://vasubansal1033.github.io/recruiter/) has a 30-second overview, my resume, and an AI agent you can ask about my fit for your JD.
 
 <p align="center">
-  <a href="https://calendar.app.google/BXzB9rtHZ8mZFWbD9"><img src="https://img.shields.io/badge/📅%20Book%20a%20chat-4285F4?style=for-the-badge" alt="Book a call" /></a>
+  <a href="https://calendar.app.google/BXzB9rtHZ8mZFWbD9"><img src="https://img.shields.io/badge/%F0%9F%93%85%20Book%20a%20chat-4285F4?style=for-the-badge" alt="Book a chat" /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" width="100%" alt="" />
